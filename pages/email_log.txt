@@ -1,0 +1,18 @@
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"error","message":"Email could not be sent.","error_info":"SMTP Error: Could not authenticate."}
+Response: {"status":"error","message":"Email could not be sent.","error_info":"SMTP Error: Could not authenticate."}
+Response: {"status":"error","message":"Email could not be sent.","error_info":"SMTP Error: Could not authenticate."}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}

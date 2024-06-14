@@ -1,0 +1,13 @@
+
+    
+        .bg-gradient-sign-in {
+            background-image: linear-gradient(310deg, #000000, #1773db);
+            color: white !important; /* Set the text color */
+        }
+    .text-info-sign-in{
+        background-image: linear-gradient(310deg, #000000, #1773db);
+    }
+    .navbar-logo{
+        margin-top: 1em !important;
+    }
+    

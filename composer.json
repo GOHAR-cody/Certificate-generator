@@ -1,0 +1,23 @@
+{
+    "name": "test/dashbord",
+    "description": "a project for mailing",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Test\\Dashbord\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "GOHAR",
+            "email": "123832917+GOHAR-cody@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "spipu/html2pdf": "^4.6",
+        "phpmailer/phpmailer": "^6.9",
+        "dompdf/dompdf": "^3.0"
+    }
+}
