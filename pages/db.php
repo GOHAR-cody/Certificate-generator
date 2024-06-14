@@ -4,8 +4,7 @@ session_start();
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "certificates";
-
+$database = "certificates";      //chnage database
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 
