@@ -61,6 +61,8 @@
     <div class="container">
         <?php
         include 'db.php';
+        
+
         if (isset($_SESSION['htmlContent'])) {
             $htmlContent = $_SESSION['htmlContent'];
             if (!empty($htmlContent)) {
@@ -82,6 +84,10 @@
 
                     while ($row = mysqli_fetch_assoc($result)) {
                         $status = getStatus($row['email']); // Function to get email status
+                        $personalizedHtmlContent = personalizeHtmlContent($htmlContent, $row);
+                        
+                        // Debugging output
+                        echo '<!-- Debug: Personalized HTML content: ' . htmlspecialchars($personalizedHtmlContent) . ' -->';
 
                         echo '<tr>';
                         echo '<td>' . $row['name'] . '</td>';
@@ -91,7 +97,7 @@
                         echo '<td><form class="emailForm" method="post">';
                         echo '<input type="hidden" name="email" value="' . $row['email'] . '">';
                         echo '<input type="hidden" name="name" value="' . $row['name'] . '">';
-                        echo '<input type="hidden" name="certificate" value="' . htmlspecialchars($htmlContent) . '">';
+                        echo '<input type="hidden" name="certificate" value="' . htmlspecialchars($personalizedHtmlContent) . '">';
                         echo '<button type="button" class="btn bg-gradient-sign-in shadow" onclick="sendEmail(this)">Mail</button>';
                         echo '</form></td>';
                         echo '</tr>';
@@ -118,11 +124,18 @@
         mysqli_close($conn);
 
         function getStatus($email) {
-            if(isset($_SESSION['email_status'][$email])){
+            if (isset($_SESSION['email_status'][$email])) {
                 return $_SESSION['email_status'][$email];
             } else {
                 return "Pending";
             }
+        }
+
+        function personalizeHtmlContent($htmlContent, $row) {
+            foreach ($row as $key => $value) {
+                $htmlContent = str_replace("{{" . $key . "}}", $value, $htmlContent);
+            }
+            return $htmlContent;
         }
         ?>
     </div>

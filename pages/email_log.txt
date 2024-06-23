@@ -16,3 +16,12 @@ Response: {"status":"error","message":"Email could not be sent.","error_info":"S
 Response: {"status":"success","message":"Email sent successfully!"}
 Response: {"status":"success","message":"Email sent successfully!"}
 Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
+Response: {"status":"success","message":"Email sent successfully!"}
