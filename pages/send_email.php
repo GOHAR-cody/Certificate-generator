@@ -85,7 +85,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $response['message'] = 'Invalid request method.';
 }
 
-file_put_contents('email_log.txt', 'Response: ' . json_encode($response) . PHP_EOL, FILE_APPEND);
+
 
 header('Content-Type: application/json');
 echo json_encode($response);
