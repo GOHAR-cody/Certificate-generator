@@ -10,7 +10,7 @@
 <h2>Dependencies:</h2><br>
           1- PHP MAILER<br>
           2- Dom PDF<br>
-          3- make a table in database for csv data, for it is being stored there (<br>table: csv_data<br>column:1- id <br>2- name <br> 3-email <br>4-phone<br>)
+          3- make a table in database for csv data, for it is being stored there (<br>table: csv_data<br>column:<br>1- id <br>2- name <br> 3-email <br>4-phone<br>)
 <h2>Things to modify:</h2><br>
          1- Change password and email from 'sign_in.php'<br>
          2- change password and username for sending email in 'send_email.php'<br>
