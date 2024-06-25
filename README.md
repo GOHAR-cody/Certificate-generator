@@ -1,4 +1,4 @@
-Login credentials:  email: goharfatimaali7@gmail.com
+Login credentials:  email: goharfatimaali7@gmail.com,
                    password: gohar
 Process: 1- Login
          2- Type html and click upload (make sure to use place holders like {{name}}, where name is the column name of csv)
