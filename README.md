@@ -15,4 +15,4 @@
          1- Change password and email from 'sign_in.php'<br>
          2- change password and username for sending email in 'send_email.php'<br>
 
-=>Feel free to contact for furthur assistance: goharfatimaali7@gmail.com
+<h3>Feel free to contact for furthur assistance</h3>: goharfatimaali7@gmail.com
